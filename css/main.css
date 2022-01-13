@@ -497,6 +497,7 @@ img {
   color: #FFFFFF;
   background: #F0D1A5;
   border-radius: 4px;
+  cursor: default;
 }
 
 @media screen and (min-width: 768px) {
@@ -559,6 +560,7 @@ img {
   line-height: 1.37;
   letter-spacing: 0.04em;
   color: #000000;
+  cursor: default;
 }
 
 @media screen and (min-width: 768px) {
@@ -585,6 +587,7 @@ img {
   line-height: 1.37;
   letter-spacing: 0.04em;
   color: #907E82;
+  cursor: default;
 }
 
 @media screen and (min-width: 768px) {
@@ -613,6 +616,7 @@ img {
   line-height: 1.37;
   letter-spacing: 0.04em;
   color: #000000;
+  cursor: default;
 }
 
 @media screen and (min-width: 768px) {
@@ -640,6 +644,7 @@ img {
   line-height: 1.37;
   letter-spacing: 0.04em;
   color: #FFA5BA;
+  cursor: default;
 }
 
 @media screen and (min-width: 768px) {
@@ -666,6 +671,7 @@ img {
   line-height: 1.37;
   letter-spacing: 0.04em;
   color: #907E82;
+  cursor: default;
 }
 
 @media screen and (min-width: 768px) {
