@@ -473,7 +473,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .contacts_list {
     width: 244px;
     padding-top: 52px;
@@ -513,7 +513,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .tabel {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -546,7 +546,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .tabel_list {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -572,7 +572,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .tabel_title {
     font-weight: 500;
     font-size: 16px;
@@ -592,7 +592,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .tabel_title--city {
     margin-bottom: 10px;
   }
@@ -616,7 +616,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .tabel_text {
     font-weight: 500;
     font-size: 16px;
@@ -646,7 +646,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .tabel_title--day {
     font-weight: 500;
     font-size: 16px;
@@ -673,7 +673,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .tabel_text--time {
     font-weight: 500;
     font-size: 16px;
@@ -700,7 +700,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .tabel_addres {
     font-weight: 500;
     font-size: 16px;
@@ -738,7 +738,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .drawing {
     padding-top: 86px;
     padding-bottom: 86px;
