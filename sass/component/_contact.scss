@@ -14,7 +14,7 @@
         );
     }
 }
-.contact_flex {
+.contact_item {
     display: flex;
     justify-content: center;
     @media screen and (max-width:767px) {
@@ -22,7 +22,7 @@
         align-items: center;
     }
 }
-.contacts {
+.contacts_list {
     width: 180px;
     padding-top: 43px;
     padding-bottom: 18px;
@@ -56,7 +56,7 @@
         }
     }
 }
-.contact_place {
+.tabel {
     display: inline;
     padding-right: 25px;
     padding-left: 25px;
@@ -80,10 +80,10 @@
         @include font-contact (500, 16px, 1.87, 0.04em);
     }
 }
-.contact_place--green {
+.tabel--green {
     background-color: $background-title-after;
 }
-.contact_list {
+.tabel_list {
     padding-top: 25px;
     padding-bottom: 25px;
     &:not(:last-child) {
@@ -98,7 +98,7 @@
         padding-bottom: 32px;
     }
 }
-.contact_title {
+.tabel_title {
     margin-bottom: 10px;
     @include font-contact (500, 12px, 1.37, 0.04em);
     color: $title-color;
@@ -110,7 +110,17 @@
         @include font-contact (500, 16px, 1.87, 0.04em);
     }
 }
-.contact_text {
+.tabel_title--city {
+    display: inline-block;
+    margin-bottom: 10px;
+    @media screen and (min-width:768px) {
+        margin-bottom: 14px;
+    }
+    @media screen and (min-width:1280px) {
+        margin-bottom: 10px;
+    }
+}
+.tabel_text {
     @include font-contact (500, 12px, 1.37, 0.04em);
     color: $text-color;
     cursor: default;
@@ -121,7 +131,7 @@
         @include font-contact (500, 16px, 1.81, 0.04em);
     }
 }
-.contact_title--day {
+.tabel_title--day {
     display: block;
     margin-top: 10px;
     @include font-contact (500, 12px, 1.37, 0.04em);
@@ -135,7 +145,7 @@
         @include font-contact (500, 16px, 1.87, 0.04em);
     }
 }
-.contact_text--time {
+.tabel_text--time {
     @include font-contact (500, 12px, 1.37, 0.04em);
     color: $pm-color;
     cursor: default;
@@ -146,7 +156,7 @@
         @include font-contact (500, 16px, 1.87, 0.04em);
     }
 }
-.contact_addres {
+.tabel_addres {
     @include font-contact (500, 12px, 1.37, 0.04em);
     color: $text-color;
     cursor: default;

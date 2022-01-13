@@ -422,7 +422,7 @@ img {
   }
 }
 
-.contact_flex {
+.contact_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -432,7 +432,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .contact_flex {
+  .contact_item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -443,7 +443,7 @@ img {
   }
 }
 
-.contacts {
+.contacts_list {
   width: 180px;
   padding-top: 43px;
   padding-bottom: 18px;
@@ -456,37 +456,37 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .contacts:nth-child(-n + 2) {
+  .contacts_list:nth-child(-n + 2) {
     margin-bottom: 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .contacts {
+  .contacts_list {
     padding-top: 50px;
     padding-bottom: 20px;
     padding-right: 32px;
     padding-left: 32px;
   }
-  .contacts:nth-child(-n + 2) {
+  .contacts_list:nth-child(-n + 2) {
     margin-right: 20px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .contacts {
+  .contacts_list {
     width: 244px;
     padding-top: 52px;
     padding-bottom: 20px;
     padding-right: 43px;
     padding-left: 43px;
   }
-  .contacts:nth-child(-n + 2) {
+  .contacts_list:nth-child(-n + 2) {
     margin-right: 30px;
   }
 }
 
-.contact_place {
+.tabel {
   display: inline;
   padding-right: 25px;
   padding-left: 25px;
@@ -501,7 +501,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .contact_place {
+  .tabel {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 16px;
@@ -514,7 +514,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .contact_place {
+  .tabel {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 16px;
@@ -526,34 +526,34 @@ img {
   }
 }
 
-.contact_place--green {
+.tabel--green {
   background-color: #C2E297;
 }
 
-.contact_list {
+.tabel_list {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-.contact_list:not(:last-child) {
+.tabel_list:not(:last-child) {
   border-bottom: 1px solid #E1E1E1;
 }
 
 @media screen and (min-width: 768px) {
-  .contact_list {
+  .tabel_list {
     padding-top: 30px;
     padding-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .contact_list {
+  .tabel_list {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 }
 
-.contact_title {
+.tabel_title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 12px;
@@ -564,7 +564,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .contact_title {
+  .tabel_title {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.85;
@@ -573,7 +573,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .contact_title {
+  .tabel_title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
@@ -581,7 +581,24 @@ img {
   }
 }
 
-.contact_text {
+.tabel_title--city {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabel_title--city {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tabel_title--city {
+    margin-bottom: 10px;
+  }
+}
+
+.tabel_text {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.37;
@@ -591,7 +608,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .contact_text {
+  .tabel_text {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.64;
@@ -600,7 +617,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .contact_text {
+  .tabel_text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.81;
@@ -608,7 +625,7 @@ img {
   }
 }
 
-.contact_title--day {
+.tabel_title--day {
   display: block;
   margin-top: 10px;
   font-weight: 500;
@@ -620,7 +637,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .contact_title--day {
+  .tabel_title--day {
     margin-top: 16px;
     font-weight: 500;
     font-size: 14px;
@@ -630,7 +647,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .contact_title--day {
+  .tabel_title--day {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
@@ -638,7 +655,7 @@ img {
   }
 }
 
-.contact_text--time {
+.tabel_text--time {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.37;
@@ -648,7 +665,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .contact_text--time {
+  .tabel_text--time {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.85;
@@ -657,7 +674,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .contact_text--time {
+  .tabel_text--time {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
@@ -665,7 +682,7 @@ img {
   }
 }
 
-.contact_addres {
+.tabel_addres {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.37;
@@ -675,7 +692,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .contact_addres {
+  .tabel_addres {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.64;
@@ -684,7 +701,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .contact_addres {
+  .tabel_addres {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.81;
