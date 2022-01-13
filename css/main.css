@@ -402,9 +402,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .conteiner {
-    width: 1280px;
+    width: 1200px;
   }
 }
 
