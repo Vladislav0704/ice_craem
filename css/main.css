@@ -383,6 +383,10 @@ img {
   padding-bottom: 94px;
 }
 
+.visual-hidden {
+  display: none;
+}
+
 .conteiner {
   width: 100%;
   margin: 0 auto;
